@@ -1,0 +1,61 @@
+.header {
+    background-color: #f6f4f4;
+    font-size: normal;
+}
+
+.header {
+    margin-left: 15%;
+    border-bottom: 3px solid #d5f4ef;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}
+
+.left {
+    margin-left: 10%;
+    font-size: .9rem;
+    color: grey;
+}
+
+.right {
+    margin-right: 5%;
+    font-size: large;
+}
+
+.userID {
+    font-size: large;
+    padding: auto;
+    border-style: none;
+    height: 10%;
+}
+
+
+.icon_search {
+    position: relative;
+
+}
+
+#logout-button {
+    background-color: rgb(3, 45, 66);
+    color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+#icon {
+    margin-right: .7rem;
+}
+
+#logout-button:hover {
+    background-color: rgb(17, 135, 195);
+    color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}

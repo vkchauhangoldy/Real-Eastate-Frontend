@@ -1,0 +1,131 @@
+.location-ul-row {
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    border: 2px solid grey;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 29.8%;
+    margin-bottom: 8px;
+}
+
+.location-li {
+    color: white;
+    background-color: #6AB4F8;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+.location-ul-row li{
+    font-size: 20px;
+}
+.location-ul-row {
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    border: 1px solid grey;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.location-li {
+    color: white;
+    background-color: #6AB4F8;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.location-form-container {
+    width: 60%;
+    font-family: sans-serif;
+    color: #1b1a1a;
+    font-size: small;
+    margin-left: 30%;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.location-form-container {
+    background-color: #f5f7f0;
+    padding: 20px;
+}
+
+.location-form-flexbox {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.location-form-flexbox>div {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.location-form-flexbox>div:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.location-form-flexbox label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.location-form-flexbox input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.location-form-flexbox select{
+    width: 108%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.location-form-flexbox textarea {
+    width: 107%;
+    /* padding: 10px; */
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.location-form-flexbox button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6AB4F8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.location-form-flexbox button:last-child {
+    background-color: #6AB4F8;
+}
+
+.location-form-flexbox button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .location-form-flexbox>div {
+        width: 100%;
+    }
+}

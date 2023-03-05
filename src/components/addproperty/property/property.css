@@ -1,0 +1,92 @@
+.property-ul-row {
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    border: 1px solid grey;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 29.8%;
+    margin-bottom: 8px;
+}
+.property-ul-row li{
+    font-size: 20px;
+}
+.property-li {
+    color: white;
+    background-color: #6AB4F8;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.property-form-container {
+    width: 60%;
+    font-family: sans-serif;
+    color: #1b1a1a;
+    font-size: small;
+    background-color: #f5f7f0;
+    padding: 20px;
+    margin-left: 30%;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.property-form-flexbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.property-form-flexbox label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.property-form-flexbox input,
+.property-form-flexbox select {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.property-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.property-btn button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6AB4F8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.property-btn button:last-child {
+    background-color: #6AB4F8;
+}
+
+.property-btn button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .property-btn {
+        flex-direction: column;
+    }
+
+    .property-btn button {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
