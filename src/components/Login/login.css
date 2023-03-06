@@ -1,37 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #E1F9F4;
-}
-.container1{
+.container1 {
     width: 30%;
     height: 60vh;
     margin: auto;
     margin-top: 100px;
-    background-color: white;
+    background-color: #E1F9F4;
     border-radius: 3px;
 }
-.heading{
+
+.heading {
     text-align: center;
     margin: 15px 0;
     color: rgb(153, 153, 239);
-    background-color: white;
     padding-top: 20px;
 }
-p{
+
+p {
     text-align: center;
     margin: 20px 0;
-    background-color: white;
 }
-h3{
+
+h3 {
     text-decoration: none;
-    background-color: white;
 }
-.form_data{
-    
-    background-color: white;
-}
-input{
+
+input {
     border: 1px solid black;
     width: 70%;
     padding: 15px;
@@ -40,27 +32,32 @@ input{
     background-color: white;
     border-radius: 1px
 }
-button{
-    background-color: white;
-    
-}
 
-.btn{
-background-color: rgb(105, 105, 239);
-color: white;
-font-size: 15px;
-padding: 15px;
-border-radius: 3px
-}
-h3{
-    text-align: center;
-    /* padding: 20px; */
-    background-color: white;
-}
-.sig{
-    background-color: white;
-}
-.signup{
+button {
     background-color: #E1F9F4;
+
 }
 
+.btn {
+    background-color: rgb(105, 105, 239);
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 3px
+}
+
+h3 {
+    text-align: center;
+    margin: auto;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.sig {
+    text-decoration: none;
+    margin-left: -20px;
+}
+
+.signup {
+    text-decoration: none;
+}

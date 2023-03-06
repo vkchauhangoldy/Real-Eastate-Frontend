@@ -80,12 +80,13 @@ const Login = () => {
                     <button className="btn" onClick={adduserdata}>Sign In</button>
 
 
-                    <h3><NavLink to="/register" className="sig">Sign Up</NavLink></h3>
+                    <h3 ><NavLink to="/register" className="sig">Sign Up</NavLink></h3>
                 </div>
+                <div className="signup">
+                <p className="signup">Don't have an account?<NavLink to="/register" className="signup">Sign up</NavLink> </p>
             </div>
-            <div>
-                <p className="signup">Don't have an account?<NavLink to="/register">Sign up</NavLink> </p>
             </div>
+            
 
         </>
     )

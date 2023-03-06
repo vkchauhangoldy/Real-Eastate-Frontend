@@ -206,7 +206,7 @@ const PropDetails = () => {
                 <button onClick={lastPage}>Previous</button>
               </div>
               <div>
-                <button type="submit">Save & continue</button>
+                <button  className="submit" type="submit">Save & continue</button>
               
               </div>
             </div>

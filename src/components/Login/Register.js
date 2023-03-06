@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 import "../Login/Register.css";
 const Register = () => {
-    const navigate= useNavigate();
+    const navigate = useNavigate();
     //const history= useHistory()
     const [inpval, setinpu] = useState({
         email: "",
@@ -32,7 +32,7 @@ const Register = () => {
             alert("provide valid email");
 
         }
-       
+
         else if (password !== cpassword) {
             alert("password should be same")
         }
@@ -50,34 +50,34 @@ const Register = () => {
             const res = await data.json();
             console.log(res);
 
-            if(res.status=== 201){
+            if (res.status === 201) {
                 alert("Registration succesfully done");
                 setinpu({
                     ...inpval,
-                    email:"",
-                    password:"",
-                    cpassword:""
+                    email: "",
+                    password: "",
+                    cpassword: ""
                 })
                 navigate("/");
             }
-            else if(res.status=== "already"){
+            else if (res.status === "already") {
                 alert("User already registered");
                 setinpu({
                     ...inpval,
-                    email:"",
-                    password:"",
-                    cpassword:""
+                    email: "",
+                    password: "",
+                    cpassword: ""
                 })
             }
-            else{
+            else {
                 alert("Registartion failed")
             }
-           
 
-            
+
+
         }
 
-        
+
     }
     return (
         <>
@@ -99,11 +99,13 @@ const Register = () => {
 
                     <button onClick={adduserdata} className="btn">Sign up</button>
                 </form>
+
+
+                <h3 className="log"><NavLink to="/" className="log" >Sign in</NavLink></h3>
+
             </div>
 
-            <div>
-                <h3 className="log"><NavLink to="/">Sign in</NavLink></h3>
-            </div>
+
         </>
     )
 

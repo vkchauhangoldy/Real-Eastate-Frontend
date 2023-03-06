@@ -1,4 +1,4 @@
-import {  useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import UpperNav from "../../MainPage/UpperNav";
 
@@ -63,7 +63,7 @@ const BasicDetails = () => {
     return (
 
         <>
-        <UpperNav/>
+            <UpperNav />
             <Sidebar />
             <h3>ADD NEW PROPERTY</h3>
             <div className="basic-info-row">
@@ -96,7 +96,7 @@ const BasicDetails = () => {
                         </div>
 
                         <div>
-                            <label>
+                            <label style={{marginLeft:"-22px"}}>
                                 Price <span style={{ color: "red" }}>*</span>:
                                 <input type="number" name="price" value={formValues.price} onChange={handleInputChange} required />
                             </label>
@@ -111,9 +111,9 @@ const BasicDetails = () => {
                         </div>
 
                         <div>
-                            <label>
+                            <label >
                                 Property Age <span style={{ color: "red" }}>*</span>:
-                                <input type="number" name="propertyAge" value={formValues.propertyAge} onChange={handleInputChange} min={2} required />
+                                <input style={{marginLeft:"-3px"}} type="number" name="propertyAge" value={formValues.propertyAge} onChange={handleInputChange} min={2} required />
                             </label>
 
                             <label>
@@ -145,7 +145,6 @@ const BasicDetails = () => {
                         </div>
                         <div>
                             <button type="submit">Save & continue</button>
-                            {/* <button type="submit" onClick={nextPage}>Save & continue</button> */}
                         </div>
 
                     </div>

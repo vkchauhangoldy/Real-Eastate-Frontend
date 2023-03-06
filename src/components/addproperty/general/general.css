@@ -44,7 +44,15 @@
     font-weight: bold;
 }
 
-.genral-form-flexbox input,
+.genral-form-flexbox input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: -3px;
+}
 .genral-form-flexbox select {
     display: block;
     padding: 10px;
@@ -54,10 +62,12 @@
     box-sizing: border-box;
 }
 
-
+.general-btn .submit{
+    margin-left: 30px;
+}
 .general-btn {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 

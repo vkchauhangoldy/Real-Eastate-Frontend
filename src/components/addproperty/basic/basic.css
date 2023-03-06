@@ -1,9 +1,11 @@
 h3 {
-    margin-left: 32%;
+    margin-left: 50%;
     font-family: 'Source Sans Pro', sans-serif;
     color: #7D7D7D;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
+
 }
 
 .basic-ul-row {
@@ -35,12 +37,14 @@ h3 {
     font-size: small;
     margin-left: 30%;
     margin-top: 20px;
+    padding-top: 17px;
     border-radius: 10px 10px 10px 10px;
 }
 
 .basic-form-container {
     background-color: #f5f7f0;
-    padding: 20px;
+    /* padding: 20px; */
+    margin-bottom: -20px;
 }
 
 .basic-form-flexbox {
@@ -54,6 +58,7 @@ h3 {
 .basic-form-flexbox>div {
     width: 45%;
     margin-bottom: 20px;
+
 }
 
 .basic-form-flexbox>div:last-child {
@@ -63,7 +68,7 @@ h3 {
 
 .basic-form-flexbox label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -78,7 +83,7 @@ h3 {
 }
 
 .basic-form-flexbox select {
-    width: 108%;
+    width: 110%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -88,7 +93,7 @@ h3 {
 }
 
 .basic-form-flexbox textarea {
-    width: 107%;
+    width: 110%;
     /* padding: 10px; */
     border-radius: 5px;
     border: none;

@@ -7,7 +7,7 @@ import Sidebar from '../../sidebar/Sidebar'
 import "./general.css";
 
 const GenInfo = () => {
-    
+
 
     const [username, setUsername] = useState("");
     const [mobile, setMobile] = useState("");
@@ -36,7 +36,7 @@ const GenInfo = () => {
 
         await fetch('https://vk-goldy-real.onrender.com/api/general', {
             method: "POST",
-            
+
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -54,8 +54,8 @@ const GenInfo = () => {
 
     return (
         <>
-        <UpperNav/>
-            <Sidebar/>
+            <UpperNav />
+            <Sidebar />
             <div className="general-info-row">
                 <h3>ADD NEW PROPERTY</h3>
                 <ul className="general-ul-row">
@@ -132,15 +132,16 @@ const GenInfo = () => {
                             </label>
                         </div>
 
-                        <div className="general-btn">
-                            <div>
-                                <button onClick={lastPage}>Previous</button>
-                            </div>
-                            <div>
-                                <button type="submit">save & continue </button>
-                            </div>
-                        </div>
 
+
+                    </div>
+                    <div className="general-btn">
+                        <div>
+                            <button onClick={lastPage}>Previous</button>
+                        </div>
+                        <div className="submit">
+                            <button className="submit" type="submit">save & continue </button>
+                        </div>
                     </div>
                 </form>
             </div>

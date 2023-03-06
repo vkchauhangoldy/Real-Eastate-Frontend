@@ -44,13 +44,11 @@
     font-size: small;
     margin-left: 30%;
     margin-top: 20px;
+    padding-top: 15px;
+    background-color: #f5f7f0;
     border-radius: 10px 10px 10px 10px;
 }
 
-.location-form-container {
-    background-color: #f5f7f0;
-    padding: 20px;
-}
 
 .location-form-flexbox {
     width: 70%;
@@ -78,7 +76,7 @@
 }
 
 .location-form-flexbox input{
-    width: 100%;
+    width: 110%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -87,7 +85,7 @@
     margin-bottom: 10px;
 }
 .location-form-flexbox select{
-    width: 108%;
+    width: 110%;
     padding: 10px;
     border-radius: 5px;
     border: none;

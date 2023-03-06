@@ -72,7 +72,7 @@ const LocateInfo = () => {
             <div>
               <label>
                 Email <span style={{ color: "red" }}>*</span>:
-                <input
+                <input style={{marginLeft:"-5px"}}
                   type="email"
                   name="email" placeholder="example@gmail.com"
                   value={formData.email}
@@ -122,7 +122,7 @@ const LocateInfo = () => {
               </label>
               <label>
                 Landmark:
-                <input
+                <input style={{marginLeft:"-5px"}}
                   type="text"
                   name="landmark" placeholder="near station, temple etc"
                   value={formData.landmark}
