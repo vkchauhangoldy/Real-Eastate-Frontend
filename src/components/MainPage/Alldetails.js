@@ -17,7 +17,7 @@ const AllDetails = () => {
 
     
    function getPropertyList() {
-    fetch(`https://vk-goldy-real.onrender.com/home`)
+    fetch(`https://vkgoldy-real.onrender.com/home`)
     .then((res)=>{return res.json()})
       .then((data)=>{
         console.log(data);
@@ -34,7 +34,7 @@ const AllDetails = () => {
     const searchHandel = async (event) => {
         let key = event.target.value
         if (key) {
-            let result = await fetch(`https://vk-goldy-real.onrender.com/${key}`)
+            let result = await fetch(`https://vkgoldy-real.onrender.com/${key}`)
             result = await result.json()
             updateList(result)
             console.log(result)

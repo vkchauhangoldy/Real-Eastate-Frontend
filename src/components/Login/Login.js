@@ -34,7 +34,7 @@ const Login = () => {
         }
         else {
 
-            const data = await fetch("https://vk-goldy-real.onrender.com/reg/login", {
+            const data = await fetch("https://vkgoldy-real.onrender.com/reg/login", {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"

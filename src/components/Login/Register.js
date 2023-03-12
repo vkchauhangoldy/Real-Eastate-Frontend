@@ -38,7 +38,7 @@ const Register = () => {
         }
         else {
             //console.log("hello");
-            const data = await fetch("https://vk-goldy-real.onrender.com/reg/signup", {
+            const data = await fetch("https://vkgoldy-real.onrender.com/reg/signup", {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"

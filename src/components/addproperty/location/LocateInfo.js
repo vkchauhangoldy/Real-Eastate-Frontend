@@ -35,7 +35,7 @@ const LocateInfo = () => {
     event.preventDefault();
     const locateData = { ...formData };  
 
-    await fetch("https://vk-goldy-real.onrender.com/api/location", {
+    await fetch("https://vkgoldy-real.onrender.com/api/location", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',

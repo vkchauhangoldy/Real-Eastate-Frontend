@@ -40,7 +40,7 @@ const PropDetails = () => {
     const propData = { ...propertyData };
     event.preventDefault();
 
-    await fetch('https://vk-goldy-real.onrender.com/api/property', {
+    await fetch('https://vkgoldy-real.onrender.com/api/property', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

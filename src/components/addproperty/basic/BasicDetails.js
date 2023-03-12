@@ -43,7 +43,7 @@ const BasicDetails = () => {
         const basicData = { ...formValues };
         event.preventDefault();
 
-        await fetch('https://vk-goldy-real.onrender.com/api/basic', {
+        await fetch('https://vkgoldy-real.onrender.com/api/basic', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

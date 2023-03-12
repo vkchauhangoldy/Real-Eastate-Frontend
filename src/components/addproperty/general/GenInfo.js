@@ -34,7 +34,7 @@ const GenInfo = () => {
         genData.append("PPDpackage", PPDpackage);
 
 
-        await fetch('https://vk-goldy-real.onrender.com/api/general', {
+        await fetch('https://vkgoldy-real.onrender.com/api/general', {
             method: "POST",
 
             headers: {

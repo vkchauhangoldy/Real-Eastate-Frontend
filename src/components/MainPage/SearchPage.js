@@ -9,7 +9,7 @@ const Search = () => {
     const [search, setSearch] = useState("")
     const [searchData, setSearchData] = useState([])
     useEffect(() => {
-        fetch(`https://vk-goldy-real.onrender.com/h1/home`, {
+        fetch(`https://vkgoldy-real.onrender.com/h1/home`, {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
@@ -25,7 +25,7 @@ const Search = () => {
     const searchhandle = () => {
         if (search) {
             if (search) {
-                let result = fetch(`https://vk-goldy-real.onrender.com/h1/:key${search}`)
+                let result = fetch(`https://vkgoldy-real.onrender.com/h1/:key${search}`)
                 result = result.json()
                 searchData(result)
                 console.log(result)
